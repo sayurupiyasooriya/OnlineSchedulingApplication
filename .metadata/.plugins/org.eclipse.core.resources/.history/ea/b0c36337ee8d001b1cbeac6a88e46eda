@@ -1,0 +1,5 @@
+package com.synotech.OnlineAppointmentScheduling.controller;
+
+public class StudentController {
+
+}

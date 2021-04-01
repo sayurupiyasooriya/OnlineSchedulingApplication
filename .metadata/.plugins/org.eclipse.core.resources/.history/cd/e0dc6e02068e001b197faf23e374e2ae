@@ -1,0 +1,46 @@
+//package com.synotech.OnlineAppointmentScheduling;
+//
+//import static org.assertj.core.api.Assertions.assertThat;
+//
+//import org.junit.jupiter.api.Test;
+//import org.springframework.beans.factory.annotation.Autowired;
+//import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase;
+//import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase.Replace;
+//import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
+//import org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManager;
+//import org.springframework.test.annotation.Rollback;
+//
+//import com.synotech.OnlineAppointmentScheduling.dao.StudentRepo;
+//import com.synotech.OnlineAppointmentScheduling.model.Student;
+//
+//@DataJpaTest
+//@AutoConfigureTestDatabase(replace = Replace.NONE)
+//@Rollback(false)
+//public class StudentRepoTests {
+//
+//	@Autowired
+//	private StudentRepo repo;
+//	
+//	@Autowired
+//	private TestEntityManager entityManager;
+//	
+//	@Test
+//	public void testCreateStudent() {
+//		Student student = new Student();
+//		student.setEmail("snpiyasooriya@gmail.com");
+//		student.setPassword("sd13895");
+//		student.setDob("1995-12-20");
+//		student.setAdress("paluwelgala road koswatta");
+//		student.setFirstName("Sayuru");
+//		student.setLastName("Piyasooriya");
+//		student.setNic("953553945V");
+//		
+//		Student savedStudent = repo.save(student);
+//		
+//		Student existStudent = entityManager.find(Student.class, savedStudent.getId());
+//		
+//		assertThat(existStudent.getEmail()).isEqualTo(student.getEmail());
+//		
+//		
+//	}
+//}

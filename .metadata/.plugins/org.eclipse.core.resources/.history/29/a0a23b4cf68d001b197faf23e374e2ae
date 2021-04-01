@@ -1,0 +1,16 @@
+package com.synotech.OnlineAppointmentScheduling.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.method.support.ModelAndViewContainer;
+
+@Controller
+public class StudentController {
+	
+	public ModelAndViewContainer home() {
+		
+		ModelAndViewContainer mv = new ModelAndViewContainer();
+		return mv;
+		
+	}
+	
+}

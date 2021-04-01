@@ -1,0 +1,5 @@
+package com.synotech.OnlineAppointmentScheduling.model;
+
+public class Role {
+
+}

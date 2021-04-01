@@ -1,0 +1,7 @@
+package com.synotech.OnlineAppointmentScheduling.dao;
+
+import org.springframework.data.repository.kotlin.CoroutineCrudRepository;
+
+public interface StudentRepo extends CoroutineCrudRepository<Student, Integer> {
+
+}

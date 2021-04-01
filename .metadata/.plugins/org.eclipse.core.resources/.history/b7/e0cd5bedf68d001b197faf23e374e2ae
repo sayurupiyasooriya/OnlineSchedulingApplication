@@ -1,0 +1,5 @@
+package com.synotech.OnlineAppointmentScheduling.dao;
+
+public interface StudentRepo {
+
+}

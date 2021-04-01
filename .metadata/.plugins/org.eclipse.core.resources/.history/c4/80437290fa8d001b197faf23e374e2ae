@@ -1,0 +1,9 @@
+package com.synotech.OnlineAppointmentScheduling.dao;
+
+import org.springframework.data.repository.CrudRepository;
+
+import com.synotech.OnlineAppointmentScheduling.model.Student;
+
+public interface StudentRepo extends CrudRepository<Student, Integer> {
+
+}
